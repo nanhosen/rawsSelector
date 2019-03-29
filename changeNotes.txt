@@ -1,0 +1,23 @@
+changes made to remove red test areas from map:
+1. C:\Users\BLMUser\Desktop\code\rawsSelector\src\components\layers\DispatchLayer.js: changed visibility to false
+2. C:\Users\BLMUser\Desktop\code\rawsSelector\src\components\IconMap.js: removed Test areas line 227 
+3. C:\Users\BLMUser\Desktop\code\rawsSelector\src\components\IconMap.js: changed layer number at line 270 from 4 to 3
+
+have dispatch areas automatically show up 
+1. C:\Users\BLMUser\Desktop\code\rawsSelector\src\components\layers\DispatchLayer.js: changed visibility to true for   DispatchLayer (line 14)
+2. commented out red fill color
+
+make dispatch areas not clickable
+1. C:\Users\BLMUser\Desktop\code\rawsSelector\src\components\IconMap.js: commented out selectClick import
+2. (same file) commented out select click stuff on lines 252 and 253
+3. (same file) commented out all select click actions starting on line 316
+
+removed scaled layer from map
+1. IconMap.js: removed out from array on line 228
+2. Iconmap.js: changed array position to 2 on lines 272 and 292
+
+fix drawer toggle button error
+1. utilities/LayerSwitcher: changed array numbers down 1 value on lines 170-173
+
+console.log missing stations
+1. RawsLayer.js: console.log on line 56

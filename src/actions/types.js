@@ -1,0 +1,5 @@
+export const SELECTED_DISPATCH = 'SELECTED_DISPATCH'
+export const K_VALUE = 'K_VALUE'
+export const MONTHLY_ERC = 'MONTHLY_ERC'
+export const SET_MONTHS = 'SET_MONTHS'
+export const INIT_RAWS_DATA = 'INIT_RAWS_DATA'

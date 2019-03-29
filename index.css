@@ -1,0 +1,20 @@
+body, html {
+	/*font-family: 'Montserrat', sans-serif;*/
+	height: 100%;
+}
+
+/*.map { 
+	height: 400px;
+}*/
+
+/*li:hover { 
+	background-color: rgba(176, 176, 176, 0.3); 
+}*/
+
+/*li.selected {
+	background-color: orange;
+}
+*/
+a, a:hover, a:active, a:visited , a:focus {
+	text-decoration: none;
+}
